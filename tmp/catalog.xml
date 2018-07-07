@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.14.0" build="20180621" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_c91dcdd2ac6483e2a79bba759712cf46b8004848a42b892071fced27c3f1aa8e_flash_display_Sprite" mod="1530940348068" signatureChecksum="2685559251" >
+        <def id="_c91dcdd2ac6483e2a79bba759712cf46b8004848a42b892071fced27c3f1aa8e_flash_display_Sprite" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/fabricemontfort/air/ezToast" mod="1530001441000" signatureChecksum="975072134" >
+        <def id="com.fabricemontfort.air:ezToast" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="653fd5e02bbc506c17d26381c144a9ea9dc853262b438ad11084c10afafacd7b"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

@@ -1,0 +1,35 @@
+<extension xmlns="http://ns.adobe.com/air/extension/30.0">
+    <id>com.fabricemontfort.air.ezToast</id>
+    <versionNumber>1.0.0</versionNumber>
+    
+    <name>ezToast Extension for AIR</name>
+    <description>
+        <text xml:lang="en_US">Toasts for AIR</text>
+        <text xml:lang="fr_FR">Toasts pour AIR</text>
+    </description>
+    <copyright>Copyright 2015, Fabrice Montfort</copyright>
+    
+    <platforms>
+        
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>eztoast.jar</nativeLibrary>
+                <initializer>com.fabricemontfort.air.ezToast</initializer>
+                <finalizer>com.fabricemontfort.air.ezToast</finalizer>
+            </applicationDeployment>
+        </platform>
+        
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libezToast.a</nativeLibrary>
+                <initializer>ezToastInitializer</initializer>
+                <finalizer>ezToastFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default"> 
+            <applicationDeployment/> 
+        </platform>
+
+    </platforms>
+</extension>
